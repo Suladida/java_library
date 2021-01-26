@@ -19,4 +19,8 @@ public class Library {
             stock.add(book);
         }
     }
+
+    public void removeBookFromStock(Book book) {
+        this.stock.remove(book);
+    }
 }
